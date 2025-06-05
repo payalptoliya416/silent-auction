@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkShop</title>
+    <!-- --bootstrap -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <!-- --fonts-- -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <!-- --style-- -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+</head>
+<body>
+    <div class="main inc-page">
+         <div class="top-nav inc-nav">
+           <a href="index.html"><button><img src="assets/image/home-icon.png" alt=""/> Home</button></a>
+        </div>
+         <section>
+             <div class="home-info inc-home-info">
+                         <h4>YOU WON'T BELIEVE IT's TRASH</h4>
+                         <h1>From Palette To Palette</h1>
+                         <p>Heartfelt Creations, Up for Bids</p>
+             </div>
+            <div class="inc-tabs">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Bidding</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">History</button>
+                </li>
+                </ul>
+                <div class="tab-content " id="pills-tabContent">
+                <div class="tab-pane fade container  show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+               <div class="row bidding-tab1-content justify-content-center">
+                        <div class="col-6">
+                        </div>
+                        <div class="col-6">
+                            <div class="balance-btn">
+                                <button><img src="assets/image/coin.png" alt="">
+                               <div>
+                                   <h3>Balance</h3>
+                                   <h3>tokens(s) : <span>30</span></h3>
+                               </div>
+                               </button>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="single-art-info ">
+                            <div class="single-art-box"></div>
+                        <div class="border-b pt-4 pb-3">
+                                <h2 class="art-title">Artwork SA001</h2>
+                                <ul class="art-info-form">
+                                   <li class="mb-2">Title:</li>
+                                   <li class="mb-2">Medium:</li>
+                                   <li class="mb-2">Dimension:</li>
+                                   <li class="mb-2">Year:</li>
+                                   <li class="mb-2">About The Artist: <span> Name,Age</span></li>
+                                </ul>
+                        </div>
+                        <div class="border-b py-4">
+                                <ul class="art-info-form">
+                                   <li>Highest Bid:</li>
+                                   <li> <strong>20 Token(s)</strong></li>
+                                   <li>(highest bidder: 11 Jul 2025, 11.59am)</li>
+                                </ul>
+                        </div>
+                        <div class="py-4">
+                                <ul class="art-info-form">
+                                   <li>Your Bid for (Artwork Name):</li>
+                                   <li> <strong>O token(s)</strong></li>
+                                   <li>(11 Jul 2025, 11.59am)</li>
+                                </ul>
+                               <div class="py-4 place-info">
+                                <h3>Place Your Bid:</h3>
+                               <div class="place-btn">
+                            <a href="#" class="token-btn" >40 Token(s)</a>
+                            <a href="#" class="proceed-btn"  data-bs-toggle="modal" data-bs-target="#artworkModal">Proceed</a>
+                            </div>
+                                <p class="token-para">*Insufficient token(s). Entot new amount.</p>
+                               </div>
+                        </div>
+                   </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                      <div class="bidding-tab2-content">
+                         <p class="tab2-para">The History page shows your token activity. To see your current bid,visit the Bidding page and look under the artwork.</p>
+                         <div class="row align-items-center token-data">
+                            <div class="col-3 d-flex justify-content-end">
+                                <div class="token-coin">
+                                    <img src="assets/image/green-coin.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="token-info">
+                                    <h3>Token(s) Received: +14</h3>
+                                    <p>26 May 2025, 2.00pm</p>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="row align-items-center token-data">
+                            <div class="col-3 d-flex justify-content-end">
+                                <div class="token-coin">
+                                    <img src="assets/image/orange-coin.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="token-info">
+                                    <h3>Token(s) Used: -18</h3>
+                                    <h5>Bid added on xxx</h5>
+                                    <p>25 May 2025, 1.00pm</p>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="row align-items-center token-data">
+                            <div class="col-3 d-flex justify-content-end">
+                                <div class="token-coin">
+                                    <img src="assets/image/green-coin.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="token-info">
+                                    <h3>Token(s) Received: +5</h3>
+                                    <p>26 May 2025, 2.00pm</p>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="row align-items-center token-data">
+                            <div class="col-3 d-flex justify-content-end">
+                                <div class="token-coin">
+                                    <img src="assets/image/orange-coin.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="token-info">
+                                    <h3>Token(s) Used: -10</h3>
+                                    <h5>Bid added on xxx</h5>
+                                    <p>25 May 2025, 1.00pm</p>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="row align-items-center token-data">
+                            <div class="col-3 d-flex justify-content-end">
+                                <div class="token-coin">
+                                    <img src="assets/image/orange-coin.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="token-info">
+                                    <h3>Token(s) Used: -10</h3>
+                                    <h5>Bid added on xxx</h5>
+                                    <p>25 May 2025, 1.00pm</p>
+                                </div>
+                            </div>
+                         </div>
+                      </div>
+                </div>
+                </div>
+            </div>
+         </section>
+    </div>
+
+     <!-- ---modal---confirm bid -->
+     <div class="modal fade"  id="artworkModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="artworkModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered art-modal">
+    <div class="modal-content">
+      <div class="modal-body">
+         <div class="artmodal-info">
+            <h2>Artwork SA001</h2>
+            <p>Add <strong>10 token(s)</strong> to your current bid?</p>
+            <div class="artmodal-box"></div>
+        </div>
+        <div class="artmodal-btn">
+       <a href="#" class="token-btn" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Cancel</a>
+<a href="#" class="proceed-btn" data-bs-toggle="modal" data-bs-target="#artworkCompleteModal">Confirm</a>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- ---modal---end -->
+     <!-- ---modal---complete bid -->
+     <div class="modal fade" id="artworkCompleteModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="artworkCompleteModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered art-modal">
+    <div class="modal-content">
+      <div class="modal-body">
+         <div class="artmodal-info">
+           <h3><img src="assets/image/right.png" alt="">Bid Placed!</h3>
+           <p>You've successfully added
+            <strong>10 token(s)</strong> to your bid for <strong>SA001!</strong>
+            </p>
+            <p>Your current bid* for <strong>SA001 = XXX token(s)</strong>
+            *As of 11.25am, 26 May 2025</p>
+            <div class="artmodal-box"></div>
+        </div>
+       <a href="#"><button class="common-btn modal-btn"  data-bs-dismiss="modal" aria-label="Close">Done</button></a> 
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- ---modal---end -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
