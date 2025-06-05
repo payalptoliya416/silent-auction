@@ -15,8 +15,7 @@ ul {
 
 body,
 html {
-  font-family: 'CircularStd', sans-serif;
-  /* font-family: "Poppins"; */
+  font-family: "CircularStd", sans-serif;
   overflow-x: hidden;
 }
 
@@ -94,7 +93,6 @@ p {
   text-transform: uppercase;
   color: var(--orange-color);
   margin-bottom: 5px;
-  font-family: "CircularStd", sans-serif;
 }
 .home-info p {
   font-size: 15px;
@@ -103,7 +101,6 @@ p {
   text-transform: uppercase;
   color: var(--orange-color);
   margin-bottom: 5px;
-  font-family: "CircularStd", sans-serif;
 }
 .home-info h1 {
   font-size: 40px;
@@ -385,7 +382,7 @@ p {
   padding: 8px 4px;
   text-align: center;
 }
-.art-top-div span {
+.art-top-div h4 {
   font-size: 14px;
   line-height: 16px;
   color: white;
@@ -578,7 +575,7 @@ p {
   max-width: 30px;
 }
 @media (max-width: 575px) {
-  .art-top-div span {
+  .art-top-div h4 {
     font-size: 11px;
     line-height: 14px;
   }
@@ -600,17 +597,13 @@ p {
     font-size: 16px;
     line-height: 20px;
   }
-  .art-top-div span {
-    font-size: 7px;
-    line-height: 5px;
+  .art-top-div h4 {
+    font-size: 8px;
+    line-height: 12px;
   }
   .art-top-div {
-    padding: 1px 4px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-  }
-  .art-top-div {
-    padding: 0;
   }
   .balance-btn button h3 {
     font-size: 12px;
