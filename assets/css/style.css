@@ -93,6 +93,7 @@ p {
   text-transform: uppercase;
   color: var(--orange-color);
   margin-bottom: 5px;
+   font-family: 'Montserrat';
 }
 .home-info p {
   font-size: 15px;
